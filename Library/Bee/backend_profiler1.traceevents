@@ -1,0 +1,593 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686273619112040, "dur":3905, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273619115967, "dur":1087, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686273619117115, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686273619117148, "dur":545, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686273619117760, "dur":1242, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273619119002, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620465791, "dur":387, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620466178, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620466197, "dur":2501, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468699, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468729, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468738, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468752, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468759, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468770, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468776, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468788, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468794, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468806, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468811, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468826, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468832, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468843, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468872, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620468964, "dur":5838, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686273619118004, "dur":1050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619119058, "dur":8840, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619127917, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686273619127926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619130196, "dur":943, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686273619131148, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686273619131227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619132289, "dur":8663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686273619140956, "dur":17731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686273619158691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619158703, "dur":14675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686273619173440, "dur":201482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686273619374928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619374938, "dur":9740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686273619384757, "dur":67574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619452349, "dur":61, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619452421, "dur":5244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619457736, "dur":991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619458733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619458746, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619461842, "dur":56619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619518466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619518482, "dur":2760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619521299, "dur":36118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619557468, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619557486, "dur":7127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619564694, "dur":2148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619566850, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619566915, "dur":10652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619577636, "dur":48265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619625908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619625936, "dur":3654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619629663, "dur":34815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619664484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619664545, "dur":7022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619671673, "dur":58433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619730132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619730148, "dur":8142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619738475, "dur":13618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619752099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619752111, "dur":7859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619760029, "dur":2888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619762924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619762937, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619765484, "dur":10193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619775684, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619775708, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619778973, "dur":4168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619783147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619783159, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619786708, "dur":864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619787577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619787589, "dur":8414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619796074, "dur":1692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619797773, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619797787, "dur":16210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619814061, "dur":3585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619817652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619817715, "dur":26198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619844007, "dur":1672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619845686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619845703, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619851639, "dur":22223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619873871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619873902, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619876891, "dur":8816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619885714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619885727, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619888708, "dur":3400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619892117, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619892133, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619896287, "dur":17478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619913769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619913780, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619917849, "dur":36238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619954091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273619954100, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273619957936, "dur":153106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273620111048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686273620111059, "dur":40505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686273620151637, "dur":314145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619118061, "dur":1007, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619119068, "dur":8864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619127932, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686273619128555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619153969, "dur":4297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1686273619158330, "dur":32461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686273619190799, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619190815, "dur":5365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686273619196243, "dur":41389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619237640, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619238532, "dur":6809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619245404, "dur":91894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619337302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619337322, "dur":10177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619347612, "dur":36900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619384518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619384531, "dur":10235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619394828, "dur":2223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619397057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619397101, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619401225, "dur":6124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619407363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619407375, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619411022, "dur":38532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619449562, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619449578, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619452935, "dur":117127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619570076, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619570097, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619575010, "dur":31219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619606237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619606251, "dur":5666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619611979, "dur":33777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619645765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619645782, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619650998, "dur":5207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619656212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619656225, "dur":5664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619661946, "dur":7811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619669789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619669804, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619672941, "dur":4388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619677335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619677348, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619680940, "dur":23049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619704001, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619704022, "dur":4056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619708138, "dur":3003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619711147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619711158, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619714507, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619715251, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619715263, "dur":12396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619727726, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619729461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619729473, "dur":3892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619733432, "dur":2518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619735963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273619735983, "dur":7671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273619743718, "dur":462479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273620206211, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686273620206243, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686273620211948, "dur":253797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619118224, "dur":859, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619119083, "dur":8826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619127917, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686273619128393, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619137640, "dur":4727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686273619142435, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686273619142642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619143448, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1686273619146984, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686273619147228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619147320, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686273619152098, "dur":3232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686273619155335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619156556, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686273619160322, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686273619160661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619160677, "dur":6856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686273619168112, "dur":5081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619173200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619173660, "dur":7975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619181715, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686273619182376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619183319, "dur":15858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686273619199316, "dur":90716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619290096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619290106, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619297583, "dur":2856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619300469, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619300528, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619303790, "dur":42798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619346595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619346635, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619351589, "dur":33395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619384988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619384998, "dur":8180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619393249, "dur":6705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619399961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619399976, "dur":5866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619405915, "dur":7352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619413289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619413304, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619416384, "dur":68275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619484666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619484678, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619487188, "dur":959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619488152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619488200, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619491689, "dur":35491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619527192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619527206, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619531096, "dur":39769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619570872, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619570901, "dur":5328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619576287, "dur":142116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619718411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619718426, "dur":10211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619729048, "dur":2355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619731418, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619731453, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619736931, "dur":756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619737733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619737744, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619741499, "dur":171154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619912659, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619912768, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619917177, "dur":3772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619920955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619920968, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619923669, "dur":12242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619935918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619935931, "dur":9117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619945124, "dur":8903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619954033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273619954045, "dur":2758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273619956876, "dur":57636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273620016144, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620016166, "dur":8383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686273620024605, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686273620024776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620024787, "dur":67522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1686273620092375, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686273620092441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620092452, "dur":44782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686273620137314, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686273620137394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620137410, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1686273620142696, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686273620142765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620142774, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1686273620146095, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686273620146171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620146187, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686273620151210, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686273620151465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686273620151475, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686273620154278, "dur":311726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619118328, "dur":767, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619119095, "dur":8845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619127940, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686273619128636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619155630, "dur":4844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686273619160536, "dur":3434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686273619163977, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619163993, "dur":8629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686273619172706, "dur":511992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619684702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619684710, "dur":185430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619870205, "dur":990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619871200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619871212, "dur":2867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619874158, "dur":5140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619879306, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619879321, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619883503, "dur":1283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619884834, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619884851, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619887431, "dur":6649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619894086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619894097, "dur":11201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619905357, "dur":74978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619980341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273619980351, "dur":4596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273619985050, "dur":73209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273620058266, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273620061384, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686273620063876, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686273620063997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273620064007, "dur":78990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686273620143058, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1686273620143119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273620143127, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1686273620146861, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686273620147088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686273620147097, "dur":15173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686273620162332, "dur":303415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619118386, "dur":723, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619119109, "dur":8794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619127917, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686273619128470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619151645, "dur":6137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686273619157868, "dur":26538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686273619184411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619184424, "dur":2829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686273619187319, "dur":152615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619339942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619339958, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619350655, "dur":134287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619484948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619484972, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619487648, "dur":36590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619524272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619524285, "dur":7408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619531758, "dur":4920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619536687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619536702, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619539386, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619540452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619540464, "dur":5895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619546423, "dur":41303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619587733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619587933, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619592995, "dur":1238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619594238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619594251, "dur":8340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619602675, "dur":68268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619670952, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619670965, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619675180, "dur":9426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619684612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619684624, "dur":8775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619693465, "dur":13622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619707093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619707105, "dur":20795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619727962, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619728756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619728768, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619734021, "dur":49119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619783146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619783159, "dur":42636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619825859, "dur":6635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619832554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619832565, "dur":11761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619844417, "dur":13952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619858378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619858393, "dur":5074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619863531, "dur":47020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619910557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619910569, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619913495, "dur":74261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619987760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619987771, "dur":5352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686273619993200, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273619993290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619993300, "dur":2970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273619996380, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273619996449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273619996457, "dur":32375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273620028914, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273620028995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686273620029010, "dur":436614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686273620465699, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1686273620465705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619118505, "dur":615, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619119120, "dur":8782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619127917, "dur":63622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686273619191544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619192130, "dur":6178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686273619198371, "dur":62518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619260895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619261030, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619263248, "dur":73616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619336874, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619336891, "dur":3343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619340303, "dur":33473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619373783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619373796, "dur":5953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619379817, "dur":139233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619519055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619519080, "dur":5206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619524355, "dur":3753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619528113, "dur":57, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619528182, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619531785, "dur":48193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619579986, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619580003, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619582792, "dur":61233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619644032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619644048, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619646588, "dur":67037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619713634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619714569, "dur":13111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619727743, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619728276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619728287, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619731054, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619731724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619731734, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619736966, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619737624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619737639, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619742373, "dur":85313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619827692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619827705, "dur":16102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619843916, "dur":118595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273619962545, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273619962561, "dur":53838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686273620016483, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1686273620016572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273620016580, "dur":5299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1686273620021936, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1686273620022010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686273620022019, "dur":314603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1686273620336714, "dur":129381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619118704, "dur":431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619119135, "dur":8769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619127917, "dur":23280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686273619151201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619151223, "dur":6678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1686273619157974, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686273619158379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619158468, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686273619161443, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1686273619161835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619161847, "dur":7705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1686273619169630, "dur":32769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619202408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619203218, "dur":14044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619217380, "dur":71949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619289337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619289350, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619292685, "dur":44417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619337110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619337123, "dur":10495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619347702, "dur":34448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619382159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619382180, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619387720, "dur":1620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619389348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619389364, "dur":9342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619398831, "dur":4781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619403620, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619403639, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619406103, "dur":2863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619408973, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619408988, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619411805, "dur":99387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619511199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619511211, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619515130, "dur":3111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619518248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619518262, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619521055, "dur":4347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619525409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619525422, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619528301, "dur":59670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619587978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619587991, "dur":6739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619594795, "dur":43911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619638713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619638779, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619642039, "dur":1990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619644033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619644048, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619646601, "dur":34963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619681572, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619681590, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619685424, "dur":2569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619688004, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619688021, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619690790, "dur":9416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619700237, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619700299, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619704561, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619705356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619705371, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619709529, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619710322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619710336, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619714244, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619715253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619715263, "dur":12392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619727727, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619728308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273619728317, "dur":15950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273619744319, "dur":262930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273620007254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273620007265, "dur":8878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686273620016267, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620016372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273620016381, "dur":5488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620021936, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620022094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273620022106, "dur":19948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620042238, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620042426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273620042440, "dur":19364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686273620061875, "dur":93017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1686273620154900, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686273620154937, "dur":7421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1686273620162417, "dur":303463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619118781, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619119147, "dur":8781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619127929, "dur":15274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686273619143208, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619143313, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686273619146004, "dur":18342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686273619164350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619164362, "dur":9103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686273619173524, "dur":83027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space.exe" }}
+,{ "pid":12345, "tid":8, "ts":1686273619256557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619256567, "dur":6130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space.exe" }}
+,{ "pid":12345, "tid":8, "ts":1686273619262757, "dur":46806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619309572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619309588, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619313630, "dur":71694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619385328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619385338, "dur":6046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619391452, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619392338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619392365, "dur":5250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619397684, "dur":50263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619447955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619447967, "dur":6271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619454317, "dur":34592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619488915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619488926, "dur":7566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619496575, "dur":31099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619527682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619527771, "dur":16569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619544409, "dur":10932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619555348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619555362, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619558580, "dur":36109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619594696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619594710, "dur":23578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619618349, "dur":35916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619654271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619654284, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619657837, "dur":296592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619954434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619954443, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619957686, "dur":2724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619960465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619960478, "dur":3538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619964084, "dur":12639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619976729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619976740, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619981776, "dur":2722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619984520, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619984539, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686273619986952, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1686273619987760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619988411, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1686273619991514, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1686273619991582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619991649, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1686273619994071, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273619994135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619994145, "dur":2613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273619996827, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273619996895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273619996903, "dur":9393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273620006363, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273620006425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620006435, "dur":1968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273620008463, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686273620008523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620008533, "dur":47350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686273620055957, "dur":37252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1686273620093216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620093229, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1686273620096712, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1686273620096790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620096800, "dur":44821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1686273620141681, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1686273620141741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620141788, "dur":4377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1686273620146267, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273620146354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686273620146366, "dur":8393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kylem/OneDrive/Desktop/Lost in Space/Lost in Space_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686273620154837, "dur":310943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686273620481724, "dur":4792, "ph":"X", "name": "ProfilerWriteOutput" }
+,
